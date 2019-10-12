@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calcilater</title>
+</head>
+<body>
+ calculator
+
+<script>
+
+
+"use strict"
+
+
+
+console.log("calculater")
+let x=prompt("enter your number1")
+console.log(x)
+let y=prompt("enter your number2")
+console.log(y)
+let z=prompt("enter your funct")
+console.log(z)
+
+let result=0;
+if(z=="+"){
+    result=Number(x)+Number(y);
+    console.log(result);
+
+
+}
+if(z=="*"){
+    result=x*y;
+    console.log(result);
+
+}
+if(z=="^"){
+    result=Math.pow(x,y);
+    console.log(result);
+
+}
+if(z=="-"){
+    result=x-y;
+    console.log(result);
+
+}
+if(z=="/"){
+    result=x/y;
+    console.log(result);
+
+}
+alert(result)
+</script>  
+</body>
+</html>

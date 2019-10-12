@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>صفحه ی شخصی من</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .grid-contaner{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 0px 80px;
+            grid-gap: 4px;
+            justify-content: center;
+            background-color: black;
+
+        }
+        .st{
+            color: black;
+            background-color: #eee;
+            padding-top: 20px;
+            border-radius: 1%;
+        }
+        .header{
+            height: 140px;
+            grid-column: 1 / span 5;
+            position: relative;
+        }
+        .article{
+            grid-column: 1 / span 5;
+            padding: 20px;
+            height: 400px;
+        }
+        .footer{
+            grid-column: 1 / span 5;
+            height: 60px;
+            text-align: center;
+            
+        }
+        #posimg{
+            border-radius: 100%;
+            margin-right: 30px;
+            position: absolute;
+        }
+        #topic{
+            position: absolute;
+            margin-right: 200px;
+            margin-bottom: 60px;
+            
+            
+        }
+        #information{
+            position: absolute;
+            margin-right: 800px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-contaner">
+        <header class="header st">
+                <img src="/9.jpg" id="posimg">
+                <h1 id="topic"> محمد محمدی</h1>
+                <div id="information">
+                        <div class="font1">شماره دانشجویی:</div>
+                        <div class="font1"> 9521170025</div>
+                        <div class="font1">مهندسی کامپیوتر</div>
+                        <div class="font1">دانشگاه کاشان</div>
+                </div>
+        </header>
+
+
+        <article class="article st">
+                <div>سلام به همه ی علاقه مندان به دانش</div>
+                <div>من در این صفحه مقالاتی در مورد موضوع های مورد علاقه ام منتشر میکنم</div>
+                    
+                <div class="marjin">
+                        لیست مقاله ها:
+                </div><br>
+                <a href="nlp.html" class="marjin";> آشنایی با نظریه انتخاب  </a><br>
+                <a href="nlp.html" class="marjin";> آشنایی با نظریه nlp  </a>
+        </article>
+
+
+
+        <footer class="footer st">
+                <a href="me.html" class="marjin">
+                        مختصری درباره ی من 
+                </a>
+        </footer>
+    </div>
+
+
+
+    
+</body>
+</html>

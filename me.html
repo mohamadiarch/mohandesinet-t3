@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>صفحه ی شخصی من</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .grid-contaner{
+            display: grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            margin: 0px 80px;
+            grid-gap: 4px;
+            justify-content: center;
+            background-color: black;
+
+        }
+        .st{
+            color: black;
+            background-color: #eee;
+            padding-top: 20px;
+            border-radius: 1%;
+        }
+        .header{
+            height: 140px;
+            grid-column: 1 / span 5;
+            position: relative;
+        }
+        .article{
+            grid-column: 1 / span 5;
+            padding: 30px;
+            height: auto;
+        }
+        .footer{
+            grid-column: 1 / span 5;
+            height: 60px;
+            text-align: center;
+            
+        }
+        #posimg{
+            border-radius: 100%;
+            margin-right: 30px;
+            position: absolute;
+        }
+        #topic{
+            position: absolute;
+            margin-right: 200px;
+            margin-bottom: 60px;
+            
+            
+        }
+        #information{
+            position: absolute;
+            margin-right: 800px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-contaner">
+        <header class="header st">
+                <img src="/9.jpg" id="posimg">
+                <h1 id="topic"> محمد محمدی</h1>
+                <div id="information">
+                        <div class="font1">شماره دانشجویی:</div>
+                        <div class="font1"> 9521170025</div>
+                        <div class="font1">مهندسی کامپیوتر</div>
+                        <div class="font1">دانشگاه کاشان</div>
+                </div>
+        </header>
+
+
+        <article class="article st">
+
+                <div class="bd">
+                        <div id="code">
+                            <h3>
+                                مهارت های برنامه نویسی
+                            </h3>
+                            <br>
+                            <ul>
+                                <li>python</li>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>javascript</li>
+                                <li>++c</li>
+                                <li>c</li>
+                                <li>bot-telegram</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <hr>
+                        <div id="book">
+                            <br>
+                            <h3>
+                                زمینه های مطالعاتی
+                            </h3>
+                            <br>
+                            <ul>
+                                <li>نظریه انتخاب</li>
+                                <li>نظریه nlp</li>
+                                <li>فروید شناسی و یونگ شناسی</li>
+                                <li>طرحواره درمانی جفری یانگ</li>
+                                <li>مکاتب فلسفی رواقیون و اگزیستان</li>
+                            </ul>
+                
+                        </div>
+                        <br>
+                        <hr>
+                        <div id="fun">
+                            <br>
+                            <h3>
+                                علاقه مندی ها
+                            </h3>
+                            <br>
+                            <ul>
+                                <li>موسیقی کلاسیک</li>
+                                <li>علاقه مند به شطرنج و تیراندازی</li>
+                                <li>مطالعه</li>
+                            </ul>
+                
+                        </div>
+                        <br>
+                        <hr>
+                        <div id="sport">
+                            <br>
+                            <h3>
+                                دست آورد ها
+                            </h3>
+                            <br>
+                            <ul>
+                                <li>بازیکن و آنالیزر و مشاور تیم فوتسال میلاد سپهر اصفهان</li>
+                                <li>عضو تیم پینگ پونگ آکادمی ستارگان اصفهان</li>
+                                <li>عضو تیم پینگ پونگ دانشگاه کاشان</li>
+                                <li>کسب مقام نائب قهرمانی مسابقات پینگ پونگ دانشگاه کاشان</li>
+                                <li>کسب مقام قهرمانی نوجوانان ونائب قهرمانی جوانان خانه پینگ پونگ اصفهان</li>
+                            </ul>
+                
+                        </div>
+                        <br>
+                        <hr>
+                    </div>
+
+        </article>
+
+
+
+        <footer class="footer st">
+                <a href="me.html" class="marjin">
+                        مختصری درباره ی من 
+                </a>
+        </footer>
+    </div>
+
+
+
+    
+</body>
+</html>
